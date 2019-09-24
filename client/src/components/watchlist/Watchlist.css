@@ -1,0 +1,39 @@
+.watchlist-main {
+  padding-bottom: 110px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-end;
+}
+
+.watchlist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  width: 70vw;
+  margin: auto;
+  margin-top: 3vh;
+}
+
+.movie-container {
+}
+
+.watchlist .movie {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.watchlist .card {
+  margin-bottom: 5vh;
+  margin-right: 2vw;
+}
+
+.back button {
+  color: #1a7053;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  margin-left: 3vw;
+  text-decoration: underline;
+}

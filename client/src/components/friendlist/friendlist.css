@@ -1,0 +1,8 @@
+.friends-main {
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.friend-title {
+  margin-bottom: 1em;
+}

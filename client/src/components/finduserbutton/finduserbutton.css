@@ -1,0 +1,14 @@
+/* .finduser-btn-main {
+  width: 10%;
+  margin-left: 5em;
+} */
+
+.search-bar-main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* 
+.finduser-btn a {
+  color: rgb(194, 233, 233);
+} */

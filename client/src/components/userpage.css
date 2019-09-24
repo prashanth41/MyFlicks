@@ -1,0 +1,153 @@
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  /* background: #fff; */
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.userpage-main {
+  margin-bottom: 5em;
+}
+
+.profile-userpic {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  background: #f0f4f7;
+  border: 1px solid rgb(216, 216, 216);
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  /* background: #fff; */
+  min-height: 460px;
+}
+
+.profile-watchlist-content {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: flex-start;
+}
+
+.profile-watchlist-content .card {
+  margin: 1em;
+  font-size: 0.9em;
+}
+
+.profile-watchlist-content .watchlist_icon {
+  position: absolute;
+  top: 5%;
+  left: 214px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 0.9em;
+}
+
+.lightRed {
+  background-color: rgb(124, 51, 51);
+}
+
+.lightBlue {
+  background-color: rgb(42, 104, 129);
+}

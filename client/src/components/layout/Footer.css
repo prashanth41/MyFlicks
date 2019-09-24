@@ -1,0 +1,53 @@
+html,
+body,
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.app,
+.login-main,
+.createaccount-main {
+  padding-bottom: 100px;
+}
+
+.movie-container {
+  padding-bottom: 130px;
+}
+
+.searchUser-main {
+  min-height: 85vh;
+  padding-bottom: 100px;
+}
+
+.footer-main {
+  margin-top: 4%;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 27%;
+  bottom: 0;
+  height: 1px;
+  width: 46%;
+  border-top: 1px solid #a52d2d;
+}
+
+.footer-copyright {
+  font-size: 1.2em;
+}
+
+.footer-copyright a {
+  color: white;
+}
+
+.footer-copyright a:hover {
+  color: antiquewhite;
+  text-decoration: none;
+}
